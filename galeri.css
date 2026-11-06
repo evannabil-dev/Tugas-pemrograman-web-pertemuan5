@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  background: #fff8f0;
+  color: #3b2f2f;
+}
+
+.galeri {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.galeri figure {
+  margin: 0;
+  padding: 16px;
+  background: #ffffff;
+  border: 2px solid #1f4379;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.galeri img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  display: block;
+}
+
+.galeri figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #000000;
+}
